@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/exchanges",
+      "handler": "exchanges.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/exchanges/count",
+      "handler": "exchanges.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/exchanges/:id",
+      "handler": "exchanges.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/exchanges",
+      "handler": "exchanges.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/exchanges/:id",
+      "handler": "exchanges.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/exchanges/:id",
+      "handler": "exchanges.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exchange",
+  "info": {
+    "name": "Exchanges",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amount": {
+      "type": "float"
+    },
+    "balance": {
+      "type": "float"
+    },
+    "point": {
+      "type": "float"
+    },
+    "date": {
+      "type": "date",
+      "required": false,
+      "unique": true
+    }
+  }
+}
