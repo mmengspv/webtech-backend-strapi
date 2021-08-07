@@ -24,7 +24,15 @@
     "date": {
       "type": "date",
       "required": false,
-      "unique": true
+      "unique": false
+    },
+    "users": {
+      "via": "exchanges",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }
