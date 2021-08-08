@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "points",
+  "info": {
+    "name": "Points"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "point": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "earn",
+        "use"
+      ]
+    },
+    "user": {
+      "via": "transaction_point",
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

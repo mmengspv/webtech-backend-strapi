@@ -18,9 +18,6 @@
     "balance": {
       "type": "float"
     },
-    "point": {
-      "type": "float"
-    },
     "date": {
       "type": "date",
       "required": false,
