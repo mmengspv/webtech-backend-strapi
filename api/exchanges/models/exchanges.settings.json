@@ -17,7 +17,7 @@
       "min": 1
     },
     "date": {
-      "type": "date",
+      "type": "datetime",
       "required": false,
       "unique": false
     },
