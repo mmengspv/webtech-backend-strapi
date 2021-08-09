@@ -13,10 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "amount": {
-      "type": "float"
-    },
-    "balance": {
-      "type": "float"
+      "type": "float",
+      "min": 1
     },
     "date": {
       "type": "date",
@@ -30,6 +28,10 @@
     },
     "type": {
       "type": "string"
+    },
+    "approve": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

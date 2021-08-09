@@ -35,6 +35,10 @@
     },
     "detail": {
       "type": "string"
+    },
+    "amount": {
+      "type": "integer",
+      "min": 0
     }
   }
 }
