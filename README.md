@@ -10,6 +10,9 @@ npm install
 ```
 npm run develop
 ```
+
+## How to use Strapi
+Go to [ localhost:1337 ] in your browsers.
 ### Login
 Email: 
 ``` 
@@ -19,3 +22,4 @@ Password:
 ```
 Admin123
 ```
+
