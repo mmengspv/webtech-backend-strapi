@@ -72,8 +72,8 @@
       "type": "decimal"
     },
     "transaction_point": {
-      "collection": "points",
-      "via": "user"
+      "via": "user",
+      "collection": "points"
     }
   }
 }

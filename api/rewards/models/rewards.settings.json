@@ -39,6 +39,10 @@
     "amount": {
       "type": "integer",
       "min": 0
+    },
+    "points": {
+      "via": "reward",
+      "collection": "points"
     }
   }
 }
