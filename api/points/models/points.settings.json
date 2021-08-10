@@ -29,6 +29,10 @@
     },
     "date": {
       "type": "datetime"
+    },
+    "reward": {
+      "model": "rewards",
+      "via": "points"
     }
   }
 }
