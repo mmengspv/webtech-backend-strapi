@@ -31,8 +31,8 @@
       "type": "datetime"
     },
     "reward": {
-      "model": "rewards",
-      "via": "points"
+      "via": "points",
+      "model": "rewards"
     }
   }
 }

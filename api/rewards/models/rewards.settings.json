@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "reward_id": {
-      "type": "string"
-    },
     "reward_name": {
       "type": "string"
     },
