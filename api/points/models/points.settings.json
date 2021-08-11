@@ -13,14 +13,11 @@
   "pluginOptions": {},
   "attributes": {
     "point": {
-      "type": "integer"
+      "type": "decimal"
     },
     "type": {
       "type": "enumeration",
-      "enum": [
-        "earn",
-        "use"
-      ]
+      "enum": ["earn", "use"]
     },
     "user": {
       "via": "transaction_point",
@@ -31,8 +28,8 @@
       "type": "datetime"
     },
     "reward": {
-      "model": "rewards",
-      "via": "points"
+      "via": "points",
+      "model": "rewards"
     }
   }
 }
