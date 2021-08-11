@@ -13,11 +13,11 @@
   "pluginOptions": {},
   "attributes": {
     "amount": {
-      "type": "float",
+      "type": "decimal",
       "min": 1
     },
     "date": {
-      "type": "date",
+      "type": "datetime",
       "required": false,
       "unique": false
     },

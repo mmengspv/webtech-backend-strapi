@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "point": {
-      "type": "integer"
+      "type": "decimal"
     },
     "type": {
       "type": "enumeration",
